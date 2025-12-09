@@ -45,24 +45,6 @@ spec:
         Click on **Complete** on this task to see an example of a Gate task.
       owner: "${user}"
       waitForScheduledStartDate: false
-    - name: "Gates: checkpoints in a release"
-      type: xlrelease.GateTask
-      description: |-
-        This task is a 'gate': a set of conditions that need to be completed before we can continue.
-
-        Gates are similar to manual tasks, but have some additional properties
-        * You can add conditions
-        * You can add dependencies on other releases
-        * Gates are colored red to stand out in the Release Flow editor and overviews.
-
-        Tick the boxes below to indicate the progress on this Gate task. When all boxes are ticked, you may complete the task.
-      owner: "${user}"
-      waitForScheduledStartDate: false
-      conditions:
-      - name: Step 1
-        type: xlrelease.GateCondition
-      - name: Step 2
-        type: xlrelease.GateCondition
     - name: Task assignment & teams
       type: xlrelease.Task
       description: |-
