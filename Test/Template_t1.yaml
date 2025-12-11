@@ -1,0 +1,19 @@
+# Exported from:        http://release-nightly.devops.dev.digitalai.cloud/
+# Release version:      26.1.0-beta.1211
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: test
+spec:
+- template: t1
+  scheduledStartDate: 2025-12-11T03:30:00Z
+  phases:
+  - phase: New Phase
+    tasks:
+    - name: Manual task
+      type: xlrelease.Task
+  riskProfile: Default risk profile
+  author: raghaw.panpaliya@digital.ai
