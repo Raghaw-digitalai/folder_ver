@@ -1,5 +1,5 @@
 # Exported from:        http://localhost:5516/
-# Release version:      26.1.0-beta.1203
+# Release version:      26.1.0-beta.1211
 
 ---
 apiVersion: xl-release/v1
@@ -10,6 +10,7 @@ metadata:
 spec:
 - template: Guided Tour for Release Managers
   scheduledStartDate: 2025-12-03T09:00:00Z
+  dueDate: 2025-12-03T10:00:00Z
   phases:
   - phase: Designing a release
     tasks:

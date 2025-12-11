@@ -1,5 +1,5 @@
 # Exported from:        http://localhost:5516/
-# Release version:      26.1.0-beta.1203
+# Release version:      26.1.0-beta.1211
 
 ---
 apiVersion: xl-release/v1
@@ -7,6 +7,7 @@ kind: Import
 spec:
   imports:
   - Notifications.yaml
+  - Template_added-new-template.yaml
   - Template_configure_release.yaml
   - Template_deployment_pattern_blue_green.yaml
   - Template_deployment_pattern_canary_release.yaml

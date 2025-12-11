@@ -1,5 +1,5 @@
 # Exported from:        http://localhost:5516/
-# Release version:      26.1.0-beta.1203
+# Release version:      26.1.0-beta.1211
 
 ---
 apiVersion: xl-release/v1
@@ -16,6 +16,7 @@ spec:
 
     For more information, please read [Perform canary deployments](docs/26.1/how-to/perform-canary-deployments) on our documentation site.
   scheduledStartDate: 2018-01-23T08:00:00Z
+  dueDate: 2018-01-23T09:00:00Z
   phases:
   - phase: Canary phase
     tasks:
