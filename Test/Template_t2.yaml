@@ -8,21 +8,12 @@ metadata:
   path: /
   home: Test
 spec:
-- template: T1
+- template: T2
   scheduledStartDate: 2026-01-09T03:30:00Z
   phases:
-  - phase: Phase 1
+  - phase: New Phase
     tasks:
-    - name: New task
+    - name: Push to prod
       type: xlrelease.Task
-    color: "#3d6c9e"
-  - phase: Phase 2
-    tasks:
-    - name: Create Release
-      type: xlrelease.CreateReleaseTask
-      folder: ./
-    - name: Create PR
-      type: xlrelease.Task
-    color: "#3d6c9e"
   riskProfile: Default risk profile
   author: admin
