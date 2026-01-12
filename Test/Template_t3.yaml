@@ -1,0 +1,29 @@
+# Exported from:        http://localhost:5516/
+# Release version:      26.1.0-beta.1231
+
+---
+apiVersion: xl-release/v1
+kind: Templates
+metadata:
+  path: /
+  home: Test
+spec:
+- template: T3
+  scheduledStartDate: 2026-01-12T03:30:00Z
+  phases:
+  - phase: Local
+    tasks:
+    - name: Commit Changes
+      type: xlrelease.Task
+    - name: Push To Staging
+      type: xlrelease.Task
+    color: "#3d6c9e"
+  - phase: GitHub
+    tasks:
+    - name: Get Approval From Stakeholders
+      type: xlrelease.Task
+    - name: Push To Prod
+      type: xlrelease.Task
+    color: "#3d6c9e"
+  riskProfile: Default risk profile
+  author: admin
