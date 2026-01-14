@@ -1,0 +1,16 @@
+# Exported from:        http://localhost:5516/
+# Release version:      26.1.0-beta.113
+
+---
+apiVersion: xl-release/v1
+kind: Import
+spec:
+  imports:
+  - Notifications.yaml
+  - Template_configure_release.yaml
+  - Template_deployment_pattern_blue_green.yaml
+  - Template_deployment_pattern_canary_release.yaml
+  - Template_guided_tour_for_release_managers.yaml
+  - Template_sample_release_template.yaml
+  - Template_sample_release_template_with_digital_ai_deploy.yaml
+  - Template_welcome_to_release.yaml
